@@ -5,6 +5,7 @@ gem 'que', path: '../..'
 group :development, :test do
   gem 'rake'
 
+  gem 'concurrent-ruby', '1.3.4'
   gem 'activerecord',    '~> 6.0.0', require: nil
   gem 'activejob',       '~> 6.0.0', require: nil
   gem 'sequel',          require: nil
