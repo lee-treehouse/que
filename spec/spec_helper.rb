@@ -11,6 +11,7 @@ require 'que'
 if ENV['USE_RAILS'] == 'true'
   require 'active_record'
   require 'active_job'
+  require 'logger'
 
   require 'que/active_job/extensions'
 
