@@ -9,6 +9,7 @@ require 'que'
 # core classes and may change some behavior that we rely on, so only bring it in
 # in some spec runs.
 if ENV['USE_RAILS'] == 'true'
+  require 'logger'
   require 'active_record'
   require 'active_job'
 
